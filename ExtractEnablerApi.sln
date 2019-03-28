@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractEnablerApi", "ExtractEnablerApi\ExtractEnablerApi.csproj", "{56914A7D-FE67-475E-ADC7-32DCA4EEFE0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationLibrary", "ConfigurationLibrary\ConfigurationLibrary.csproj", "{CD872863-D4F4-40D4-9261-99B80D7038E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationLibrary", "ConfigurationLibrary\ConfigurationLibrary.csproj", "{CD872863-D4F4-40D4-9261-99B80D7038E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDBAccess", "MongoDBAccess\MongoDBAccess.csproj", "{4BB9630A-46EE-4919-B2C8-05323D5BF38C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDBAccess", "MongoDBAccess\MongoDBAccess.csproj", "{4BB9630A-46EE-4919-B2C8-05323D5BF38C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractBL", "ExtractBL\ExtractBL.csproj", "{CFFAAF9B-78EA-4203-BEF9-5091918F9BA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4BB9630A-46EE-4919-B2C8-05323D5BF38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BB9630A-46EE-4919-B2C8-05323D5BF38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BB9630A-46EE-4919-B2C8-05323D5BF38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFAAF9B-78EA-4203-BEF9-5091918F9BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFAAF9B-78EA-4203-BEF9-5091918F9BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFAAF9B-78EA-4203-BEF9-5091918F9BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFAAF9B-78EA-4203-BEF9-5091918F9BA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
